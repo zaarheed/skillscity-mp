@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-export default fnction Home() {
+export default function Home() {
   const router = useRouter();
   const [state, setState] = useState({});
 
