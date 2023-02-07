@@ -32,10 +32,3 @@ export default function Home() {
     </div>
   )
 }
-
-
-// write a function that adds two numbers
-// and returns the result
-function addTwoNumbers(a, b) {
-  return a + b;
-}
