@@ -9,7 +9,6 @@ export default function BooksGrid() {
     }, []);
 
     const getBooks = async () => {
-        const url = "books";
         const response = await fetch(`/api/books`);
         const data = await response.json();
         setBooks(data);
