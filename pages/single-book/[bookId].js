@@ -1,4 +1,5 @@
 import Hero from "@/components/home/hero";
+import Content from "@/components/shared/content";
 import Footer from "@/components/shared/footer";
 import Header from "@/components/shared/header";
 import { useRouter } from "next/router"
@@ -40,6 +41,16 @@ export default function SingleBook() {
                 title={book.title}
                 subtitle={book.author}
             />
+
+            <Content>
+                <div className="w-full flex flex-col">
+
+                    <a href={book.linkToPurchase} target="_blank">
+                        Buy on Amazon
+                    </a>
+
+                </div>
+            </Content>
 
             <Footer
                 title="Next book"

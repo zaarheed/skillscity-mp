@@ -18,7 +18,8 @@ export default function handler(req, res) {
             id: "3",
             title: "Born a Crime",
             author: "Trevor Noah",
-            imgUrl: "/assets/3.png"
+            imgUrl: "/assets/3.png",
+            linkToPurchase: "https://amzn.to/3YeALvX"
         }
     ];
 
