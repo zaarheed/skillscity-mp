@@ -4,6 +4,7 @@ import Footer from "@/components/shared/footer";
 import Header from "@/components/shared/header";
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react";
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 export default function SingleBook() {
     const router = useRouter();
@@ -44,6 +45,17 @@ export default function SingleBook() {
 
             <Content>
                 <div className="w-full flex flex-col">
+
+                    <div className="">
+                        <CopyToClipboard text={book.linkToPurchase}>
+                            <button
+                                className="bg-blue-500 text-white px-4 py-2 rounded-lg"
+                                type="button"
+                            >
+                                Copy link to Amazon
+                            </button>
+                        </CopyToClipboard>
+                    </div>
 
                     <a href={book.linkToPurchase} target="_blank">
                         Buy on Amazon
