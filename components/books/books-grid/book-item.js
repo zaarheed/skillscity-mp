@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useState } from "react";
 
 export default function BookItem({ book }) {
@@ -11,7 +12,9 @@ export default function BookItem({ book }) {
     return (
         <div className="border rounded-lg p-4">
             <img src={book.img_url} className="rounded-lg" />
-            <p className="text-xl font-medium">{book.title}</p>
+            <Link href={`/single-book/${book.id}`} className="text-xl font-medium">
+                {book.title}
+            </Link>
             <p className="text-gray-700">{book.author}</p>
             <button
                 onClick={handleLike}
