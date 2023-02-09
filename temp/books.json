@@ -3,18 +3,18 @@
         "id": "1",
         "title": "The Hobbit",
         "author": "J.R.R. Tolkien",
-        "imgUrl": "/assets/1.png"
+        "img_url": "/assets/1.png"
     },
     {
         "id": "2",
         "title": "The Fellowship of the Ring",
         "author": "J.R.R. Tolkien",
-        "imgUrl": "/assets/2.png"
+        "img_url": "/assets/2.png"
     },
     {
         "id": "3",
         "title": "Born a Crime",
         "author": "Trevor Noah",
-        "imgUrl": "/assets/3.png"
+        "img_url": "/assets/3.png"
     }
 ]
