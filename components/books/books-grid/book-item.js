@@ -10,7 +10,7 @@ export default function BookItem({ book }) {
 
     return (
         <div className="border rounded-lg p-4">
-            <img src={book.imgUrl} className="rounded-lg" />
+            <img src={book.img_url} className="rounded-lg" />
             <p className="text-xl font-medium">{book.title}</p>
             <p className="text-gray-700">{book.author}</p>
             <button
