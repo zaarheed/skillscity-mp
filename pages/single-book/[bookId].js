@@ -38,7 +38,7 @@ export default function SingleBook() {
             <Header name={book.title} />
 
             <Hero
-                imgUrl={book.imgUrl}
+                imgUrl={book.img_url}
                 title={book.title}
                 subtitle={book.author}
             />
