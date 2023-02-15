@@ -53,7 +53,7 @@ export default function Contact() {
             <Header name="Contact" />
 
             <Content>
-                <form className="flex flex-col space-y-3 w-full sm:w-96">
+                <form className="flex flex-col space-y-3 w-full sm:w-96 px-3">
                     <Input
                         placeholder="Name"
                         value={name}
