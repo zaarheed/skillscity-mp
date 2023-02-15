@@ -1,0 +1,16 @@
+[
+    {
+        "cust_id": "01",
+        "first_name": "Mickey",
+        "last_name": "Mouse",
+        "address": "123 Gouda St.",
+        "phone": "456-7890"
+    },
+    {
+        "cust_id": "02",
+        "first_name": "Donald",
+        "last_name": "Duck",
+        "address": "325 Eider Ln.",
+        "phone": "786-2365"
+    }
+]
