@@ -1,24 +1,9 @@
-export default function handler(req, res) {
-    const locations = [
-        {
-            id: "manchester",
-            title: "Manchester",
-            visitedDate: "Last week",
-            imgUrl: "/assets/manchester.png"
-        },
-        {
-            id: "singapore",
-            title: "Singapore",
-            visitedDate: "Last year",
-            imgUrl: "/assets/singapore.png"
-        },
-        {
-            id: "san-francisco",
-            title: "San Francisco",
-            visitedDate: "Jan 2022",
-            imgUrl: "/assets/san-francisco.png"
-        }
-    ];
+import sql from "@/utils/postgres";
+
+export default async function handler(req, res) {
+    const locations = await sql`
+        select * from locations
+    `;
 
     res.json(locations);
 }

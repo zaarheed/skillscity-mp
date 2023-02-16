@@ -2,8 +2,27 @@ import Input from "@/components/forms/input";
 import Content from "@/components/shared/content";
 import Footer from "@/components/shared/footer";
 import Header from "@/components/shared/header";
+import { useEffect, useState } from "react";
 
 export default function Search() {
+    const [locations, setLocations] = useState([]);
+
+    useEffect(() => {
+        getLocations();
+    }, []);
+
+    const getLocations = async () => {
+        const response = await fetch(`/api/locations`, {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json",
+            }
+        });
+
+        const data = await response.json();
+        setLocations(data);
+    }
+
     return (
         <div className="w-full">
             <Header name="Search" />
@@ -20,18 +39,11 @@ export default function Search() {
                 </div>
 
                 <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-10">
-                    <div className="w-full h-40 bg-red-100">
+                    {locations.map(location => (
+                        <div key={location.id} className="w-full h-40 bg-red-100">
 
-                    </div>
-                    <div className="w-full h-40 bg-red-100">
-
-                    </div>
-                    <div className="w-full h-40 bg-red-100">
-
-                    </div>
-                    <div className="w-full h-40 bg-red-100">
-
-                    </div>
+                        </div>
+                    ))}                    
                 </div>
             </Content>
 
