@@ -1,3 +1,4 @@
+import Hero from "@/components/home/hero";
 import Topics from "@/components/home/topics";
 import Content from "@/components/shared/content";
 import Footer from "@/components/shared/footer";
