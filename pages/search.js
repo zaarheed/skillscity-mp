@@ -25,6 +25,24 @@ export default function Search() {
         setLocations(data);
     }
 
+    const filteredLocations = async () => {
+        if (!input) {
+            getLocations();
+            return;
+        }
+
+        const response = await fetch(`/api/locations?search=${input}`, {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json",
+            }
+        });
+
+        const data = await response.json();
+
+        setLocations(data);
+    }
+
     return (
         <div className="w-full">
             <Header name="Search" />
@@ -38,6 +56,7 @@ export default function Search() {
                     <button
                         className="bg-blue-500 text-white px-6 py-2 rounded-md"
                         type="button"
+                        onClick={filteredLocations}
                     >
                         S
                     </button>
