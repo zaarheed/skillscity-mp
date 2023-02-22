@@ -101,7 +101,10 @@ export default function Contact() {
                     }
                 </form>
 
-                <ListOfMessages isLoading={isLoading} messages={messages} />
+                <ListOfMessages
+                    isLoading={isLoading} messages={messages}
+                    onDelete={getMessages}
+                />
             </Content>
 
             <Footer title="Home" href="/" />
