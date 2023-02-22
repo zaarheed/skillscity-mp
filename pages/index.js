@@ -47,7 +47,14 @@ export default function Home() {
         </div>
       </Content>
       
-      <Footer href="/books" title="Books page" />
+      <Footer
+        href="/books"
+        title="Books page"
+        buttons={[
+          { title: "Locations", href: "/locations" },
+          { title: "Books", href: "/books" }
+        ]}
+      />
     </div>
   )
 }

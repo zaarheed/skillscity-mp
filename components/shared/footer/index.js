@@ -1,10 +1,11 @@
 import FooterButton from "./footer-button";
 
-export default function Footer({ href, title }) {
+export default function Footer({ buttons = [] }) {
     return (
         <div className="w-full max-w-6xl mx-auto mt-8 flex flex-row space-x-2">
-            <FooterButton href={href} title={title} />
-            <FooterButton href="/locations" title="Locations" />
+            {buttons.map((button, index) => (
+                <FooterButton href={button.href} title={button.title} key={index} />
+            ))}
         </div>
     )
 }

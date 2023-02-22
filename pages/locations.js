@@ -14,7 +14,11 @@ export default function LocationsPage() {
                 </div>
             </Content>
 
-            <Footer title="Home Page" href="/" />
+            <Footer
+                buttons={[
+                    { title: "Homepage", href: "/" }
+                ]}
+            />
         </div>
     );
 }
