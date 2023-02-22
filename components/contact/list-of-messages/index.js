@@ -1,7 +1,7 @@
 export default function ListOfMessages({ isLoading, messages, onDelete }) {
 
     const handleDelete = async (id) => {
-        await fetch(`/api/delete-contact-message?id=${id}`, {
+        await fetch(`/api/contact-messages/${id}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"
