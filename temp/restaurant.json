@@ -1,0 +1,87 @@
+{
+    "id": 1,
+    "geometry": {
+        "type": "Point",
+        "coordinates": [
+            -2.977290199999999,
+            53.4024486
+        ]
+    },
+    "seoTags": [],
+    "address": "100 Bold Street, Liverpool, L1 4HY, UK",
+    "amenities": [],
+    "businessStatus": "OPERATIONAL",
+    "businessStatusMessage": null,
+    "chainId": null,
+    "chain": null,
+    "city": "Liverpool",
+    "country": "United Kingdom",
+    "cuisines": [
+        "Burgers"
+    ],
+    "description": "Great British burgers and homemade rosemary chips",
+    "email": "liverpool@honestburgers.co.uk",
+    "enableDeliveryPartners": true,
+    "fairTradeDescription": null,
+    "fairTradeDescriptionDate": null,
+    "fairTradeDescriptionSource": null,
+    "featured": false,
+    "foursquareVenueId": null,
+    "googlePlaceId": "ChIJFUxCgG4he0gRE5zrAwhEIGA",
+    "hasThumb": true,
+    "instagram": "honestburgers",
+    "isFastFood": false,
+    "locationName": "Ropewalks",
+    "name": "Honest Burgers",
+    "nickname": "Honest Burgers Liverpool",
+    "parkingDescription": null,
+    "parkingDescriptionDate": null,
+    "parkingDescriptionSource": null,
+    "pdfMenuUrl": null,
+    "postcode": "L1 4HY",
+    "disabled": false,
+    "telephone": "+44 151 832 9860",
+    "thumbUrl": "https://halaljoints.s3.eu-west-2.amazonaws.com/v0-restaurant-thumbs/3y8ao0pol3rec2er.jpg",
+    "web": "https://www.honestburgers.co.uk/locations/liverpool/",
+    "createdBy": null,
+    "googleMapsUrl": "https://maps.google.com/?cid=6926611028112022547",
+    "googlePriceLevel": 2,
+    "googleRating": 4.4,
+    "promotionalText": null,
+    "promotionalTextUrl": null,
+    "firebaseDynamicLink": null,
+    "googleOpeningHoursWeekdayText": [
+        "Sunday: 11:30 AM – 10:00 PM",
+        "Monday: 11:30 AM – 10:00 PM",
+        "Tuesday: 11:30 AM – 10:00 PM",
+        "Wednesday: 11:30 AM – 10:00 PM",
+        "Thursday: 11:30 AM – 10:30 PM",
+        "Friday: 11:30 AM – 10:30 PM",
+        "Saturday: 11:30 AM – 10:30 PM"
+    ],
+    "systemNotes": null,
+    "deliveryPartners": [
+        {
+            "id": "deliveroo-uk",
+            "displayName": "Deliveroo",
+            "name": "Deliveroo UK",
+            "countryCode": "GBR",
+            "currencyCode": "GBP",
+            "website": "https://deliveroo.co.uk/",
+            "webUrl": "https://deliveroo.co.uk/menu/liverpool/liverpool-city-centre/honest-burgers-liverpool-central?utm_source=halaljoints",
+            "_id": "629382f3e5b9a2001806b714"
+        }
+    ],
+    "createdAt": "2022-06-01T19:40:29.336Z",
+    "updatedAt": "2023-02-21T23:11:44.808Z",
+    "approvedAt": "2022-06-01T19:40:29.336Z",
+    "longitude": -2.977290199999999,
+    "latitude": 53.4024486,
+    "galleryImages": [
+        "https://halaljoints.s3.eu-west-2.amazonaws.com/v0-restaurant-gallery/3y8ao0pol3reaamn/3y8ao0pol3rec6ex.jpg",
+        "https://halaljoints.s3.eu-west-2.amazonaws.com/v0-restaurant-thumbs/3y8ao0pol3rec2er.jpg",
+        "https://halaljoints.s3.eu-west-2.amazonaws.com/v0-restaurant-gallery/3y8ao0pol3reaamn/3y8ao0pol3rec9b8.jpg",
+        "https://halaljoints.s3.eu-west-2.amazonaws.com/v0-restaurant-gallery/3y8ao0pol3reaamn/3y8ao0pol3recchm.jpg",
+        "https://halaljoints.s3.eu-west-2.amazonaws.com/v0-restaurant-gallery/3y8ao0pol3reaamn/3y8ao0pol3rech9a.jpg"
+    ]
+}
