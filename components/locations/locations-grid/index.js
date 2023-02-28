@@ -12,6 +12,7 @@ export default function LocationsGrid() {
     const getLocations = async () => {
         const response = await fetch(`/api/locations`);
         const data = await response.json();
+        console.log(data);
         setLocations(data);
     }
 
